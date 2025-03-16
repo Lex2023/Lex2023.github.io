@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    background: linear-gradient(to bottom, #dce35b, #45b649);
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+h5{
+    color: rgb(68, 1, 1);
+}  
+
+p { 
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 7px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+li text{
+    font-size: large;
+}
+li {
+    margin-left: 2px;
+    list-style-position: inside;
+    font-size: 14px;
+    font-weight: bold;
+}
+.flexForTravel{
+    display: flex;
+}
+h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+.newText{
+    text-align: center;
+}
+.novunku{
+    background: linear-gradient(to right,#fea56e, #f2d16e);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 3px;
+}
+.velukoposniPropozucii{
+    background: linear-gradient(to right, #dce35b, #58d45c);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 3px;
+}
+.winterProposition {
+    background: linear-gradient(to right, #38bddf, #6dd5ed);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 3px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #6dd5ed, #2aadce);
+    border-radius: 8px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 5px;
+}
+.baseProposition{
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 3px;
+}
+img{
+    width: 70px;
+    margin-right: 5px;
+    object-fit: cover;
+    padding-bottom: 2px;
+}
