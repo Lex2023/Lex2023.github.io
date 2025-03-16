@@ -70,7 +70,8 @@ h3 {
 }
 .flex{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     background: linear-gradient(to right, #6dd5ed, #2aadce);
     border-radius: 8px;
     padding: 5px;
@@ -94,22 +95,3 @@ img{
     object-fit: cover;
     padding-bottom: 5px;
 }
-/* a{
-background-color: orange;
-border-radius: 20px;
-border: none;
-color: black;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin-left: auto;
-margin-right: auto;
-}
-.podzvonutu{
-display: flex;
-justify-content: center;
-margin-left: 40%;
-margin-right: 40%;
-} */
