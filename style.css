@@ -38,7 +38,7 @@ li {
     display: flex;
 }
 h3 {
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
 }
 .newText{
@@ -78,6 +78,7 @@ h3 {
     border-color: black;
     border-width: 1px;
     margin-bottom: 5px;
+    margin-top: 3px;
 }
 .baseProposition{
     background: linear-gradient(to right, #ffefba, #ffffff);
@@ -91,5 +92,24 @@ img{
     width: 70px;
     margin-right: 5px;
     object-fit: cover;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
+}
+a{
+background-color: orange;
+border-radius: 20px;
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-left: auto;
+margin-right: auto;
+}
+.podzvonutu{
+display: flex;
+justify-content: center;
+margin-left: 40%;
+margin-right: 40%;
 }
